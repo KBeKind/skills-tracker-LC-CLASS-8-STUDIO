@@ -71,13 +71,24 @@ public class SkillsController {
         return "<html>" +
                 "<body>" +
                 "<h1>" + name + "'s Favorite</h1>" +
-                "<ol>" +
-                    "<li>" + favorite1 + "</li>" +
-                    "<li>" + favorite2 + "</li>" +
-                    "<li>" + favorite3 + "</li>" +
-                    "<li>" + favorite4 + "</li>" +
+                "<table>" +
+                "<thead>" +
+                "<th>#1</th>" +
+                "<th>#2</th>" +
+                "<th>#3</th>" +
+                "<th>#4</th>" +
+                "<tr>" +
+                "</thead>" +
+                "<tbody>" +
+                "<tr>" +
+                    "<td>" + favorite1 + "</td>" +
+                    "<td>" + favorite2 + "</td>" +
+                    "<td>" + favorite3 + "</td>" +
+                    "<td>" + favorite4 + "</td>" +
+                "</tr>" +
+                "</tbody>" +
+                "</table>" +
                 "</ol>" +
-
                 "</body>" +
                 "</html>";
     }
